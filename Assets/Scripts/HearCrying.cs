@@ -17,7 +17,6 @@ public class HearCrying : MonoBehaviour
         {
             animator.SetTrigger("WakeUp");
             awake = true;
-            FindObjectOfType<ProgressBar1>().trust++;
         }
 
         if (awake && animator.GetCurrentAnimatorStateInfo(0).IsName("WakeUp"))
@@ -27,6 +26,7 @@ public class HearCrying : MonoBehaviour
 
         if (synced && animator.GetCurrentAnimatorStateInfo(0).IsName("Asleep"))
         {
+            FindObjectOfType<ProgressBar1>().trust++;
             awake = false;
             synced = false;
         }
