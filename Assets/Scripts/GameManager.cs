@@ -1,18 +1,30 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject hint;
+    public Text bText;
+    public GameObject finalPanel;
+
     void Start()
     {
-        
+        if (Failures.failed1)
+        {
+            hint.SetActive(true);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Fail()
     {
-        
+        bText.text = "Failed";
+        Failures.failed2 = true;
+        finalPanel.SetActive(true);
+    }
+
+    public void Succeed()
+    {
+        bText.text = "Success!";
+        finalPanel.SetActive(true);
     }
 }
