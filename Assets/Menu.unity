@@ -291,21 +291,21 @@ MonoBehaviour:
   m_Text: 'The first level represents Trust vs. Mistrust. Use F to cry, waking a
     parent and building trust in the world.
 
-    
 
 
-    Level 2 represents Autonomy
-    vs. Self-Doubt. Use WASD or the arrow keys to demonstrate your ability to act
-    on your own and change your path. If you failed level 1, succeeding here is possible
+
+    Level 2 represents Autonomy vs.
+    Self-Doubt. Use WASD or the arrow keys to demonstrate your ability to act on
+    your own and change your path. If you failed level 1, succeeding here is possible
     but difficult.
 
-    
 
 
-    The third and final level represents Initiative
-    vs. Guilt. Balance the impact of the two forces with AD or the left/right arrow
-    keys until the end of the stage to win. Success here will be challenging if you
-    failed the previous stage.'
+
+    The third and final level represents Initiative vs. Guilt.
+    Balance the impact of the two forces with AD or the left/right arrow keys until
+    the end of the stage to win. Success here will be challenging if you failed the
+    previous stage.'
 --- !u!222 &1023039666
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -958,7 +958,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1280, y: 720}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 1
+  m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
