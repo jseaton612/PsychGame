@@ -1517,7 +1517,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   factor: 1500
-  step: 0.08
+  step: 0.06
   pivot: {fileID: 0}
 --- !u!50 &1869100449
 Rigidbody2D:

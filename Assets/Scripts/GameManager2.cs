@@ -31,7 +31,7 @@ public class GameManager2 : MonoBehaviour
             return;
         }
 
-        else if (balance.transform.position.y < -5)
+        else if (remainingTime > 0 && balance.transform.position.y < -5)
         {
             bText.text = "GAME OVER\nThanks for playing!";
             hint.SetActive(false);

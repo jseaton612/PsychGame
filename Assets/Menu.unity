@@ -288,22 +288,23 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'The first level represents Trust vs. Mistrust. Use F to cry, waking a
-    parent and building trust in the world.
+  m_Text: 'A simple psych-themed game created by Joseph Seaton
 
 
-
-    Level 2 represents Autonomy vs.
-    Self-Doubt. Use WASD or the arrow keys to demonstrate your ability to act on
-    your own and change your path. If you failed level 1, succeeding here is possible
-    but difficult.
+    The first level
+    represents Trust vs. Mistrust. Use F to cry, waking a parent and building your
+    trust in the world.
 
 
+    Level 2 represents Autonomy vs. Self-Doubt. Use WASD
+    or the arrow keys to demonstrate your ability to act on your own and change your
+    path. If you failed level 1, succeeding here is possible but difficult.
 
-    The third and final level represents Initiative vs. Guilt.
-    Balance the impact of the two forces with AD or the left/right arrow keys until
-    the end of the stage to win. Success here will be challenging if you failed the
-    previous stage.'
+
+    The
+    third and final level represents Initiative vs. Guilt. Balance the impact of
+    the two forces with AD or the left/right arrow keys until the end of the stage
+    to win. Success here will be challenging if you failed the previous stage.'
 --- !u!222 &1023039666
 CanvasRenderer:
   m_ObjectHideFlags: 0
